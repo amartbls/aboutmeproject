@@ -91,7 +91,7 @@ body {
     align-items: center;
     text-align: center;
 }
-.lists__ordered h1, .lists__unordered h1 {
+.lists__ordered h2, .lists__unordered h2 {
     font-size: 3.5rem;
 }
 .lists__ordered li, .lists__unordered li {
