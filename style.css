@@ -1,0 +1,115 @@
+html,
+body,
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: gray;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 75vh;
+  color: white;
+  background-image:
+    linear-gradient(rgba(80, 81, 82, 0.8), rgba(80, 81, 82, 0.8)),
+    url("siths.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: 10vh;
+}
+.hero__content {
+  width: 85rem;
+  padding: 2rem;
+}
+.hero h1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+}
+.hero h2 {
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+.hero button {
+  font-size: 2.4rem;
+  padding: 1rem 2rem;
+  background-color: rgb(71, 181, 255);
+  color: white;
+  border-radius: 5rem;
+  border: none;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.hero button:hover {
+  background-color: rgb(38, 97, 136);
+}
+.hero button:active {
+  background-color: rgb(71, 181, 255);
+}
+.hero p {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+.hero a {
+  font-size: 2.4rem;
+  color: rgb(71, 181, 255);
+}
+.pictures {
+    display: flex;
+    flex-direction: row;
+}
+.pictures img {
+    width: 100%;
+    height: 25rem;
+    object-fit: contain;
+}
+.lists{
+    display: flex;
+    flex-direction: row;
+}
+.lists__ordered {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    width: 30vw;
+    margin: 10vw;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.lists__ordered h2, .lists__unordered h2 {
+    font-size: 3.5rem;
+}
+.lists__ordered li, .lists__unordered li {
+    font-size: 2.8rem;
+}
+
+.lists__unordered {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    width: 30vw;
+    margin: 10vw; 
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#worst{
+    color: red;
+}
